@@ -1,0 +1,33 @@
+body {
+    background-color: #1E1E1E;
+}
+  
+.masonry {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: 0;    
+    grid-template-columns: repeat(5, 1fr);
+    min-height: 100vh;
+}
+
+.arrow-down-container {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+  
+.fa-chevron-circle-down {
+    position: fixed;
+    z-index: 5;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.fa-spinner-third {
+    color: #fff;
+    font-size: 30px;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    z-index: 5;
+}
